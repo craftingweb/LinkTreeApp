@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply mb-2 w-[auto] h-[auto] text-center h1 line-clamp-1 active:relative active:top-[4px] active:shadow-[2px_2px_0px_#000000] active:shadow-none bg-brutal-yellow border-black box-border shadow-[4px_4px_0px_#000000] border-4 w-full px-[32px];
+  }
+
+  .h1,
+  .h2 {
+    @apply leading-none;
+  }
+
+  .h1 {
+    @apply text-5xl;
+  }
+
+  .h2 {
+    @apply text-4xl;
+  }
+
+  .barge {
+    @apply w-[390px] lg:w-[500px] mx-auto px-[46px];
+  }
+}
